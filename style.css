@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: url(./wave-haikei.svg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.main {
+  /* border: 2px solid white; */
+  width: 600px;
+  margin: auto;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#output {
+  border: 2px solid #0066ff;
+  height: 300px;
+  color: white;
+  width: 100%;
+  padding: 10px;
+}
+
+.btn-con {
+  width: 100%;
+  /* border: 2px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  background-color: #0066ff;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 80%;
+}
